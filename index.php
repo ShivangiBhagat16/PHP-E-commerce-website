@@ -1,222 +1,292 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
+<?php
+    require_once("includes/header.php");//only include the file once, if there's duplication of file
+    
+?>
+        
+    
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!--shivangi-->
-
-  <title>Shop Homepage - Start Bootstrap Template</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/shop-homepage.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Page Content -->
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-lg-3">
-
-        <h1 class="my-4">Shop Name</h1>
-        <div class="list-group">
-          <a href="#" class="list-group-item">Category 1</a>
-          <a href="#" class="list-group-item">Category 2</a>
-          <a href="#" class="list-group-item">Category 3</a>
-        </div>
-
-      </div>
-      <!-- /.col-lg-3 -->
-
-      <div class="col-lg-9">
-
-        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+    <div class="HeaderWrap WindowHeight">
+        <div class="Container">
+            
+            <div class="Header">
+                <div class="MainWrapper">
+                        <div class="group ClearBoth">
+                            <div class="LeftBlock">
+                                <h5>The Royal Essence Of Journey </h5>
+                                <h2>Relaxed Journey Ever </h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros.</p>
+                                <div class="RedBtn"><a href="#">rent car now</a></div>
+                            </div> <!--left-->
+            
+                            
+                        </div>
+                </div>
             </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item One</a>
-                </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item Two</a>
-                </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item Three</a>
-                </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item Four</a>
-                </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item Five</a>
-                </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item Six</a>
-                </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-              </div>
-            </div>
-          </div>
 
         </div>
-        <!-- /.row -->
+    </div> <!--HeaderWrap-->
 
-      </div>
-      <!-- /.col-lg-9 -->
+    <div class="ServicesWrap">
+        <div class="Container">
 
-    </div>
-    <!-- /.row -->
+            <h1>What services we offer to our clients</h1>
+            <p class="MiddleText">who are in extremely love with eco friendly system</p>
 
-  </div>
-  <!-- /.container -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="Col">
+                        <h5><i class="fa fa-user"></i> <span>Expert Technicians</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                    </div>
+                </div> <!--1-->
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+                <div class="col-sm-4">
+                    <div class="Col">
+                            <h5><i class="fa fa-address-card-o"></i> <span>Professional Service</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                    </div>
+                </div> <!--2-->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                <div class="col-sm-4">
+                    <div class="Col">
+                            <h5><i class="fa fa-phone-square"></i> <span>Great Support</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                    </div>
+                </div> <!--3-->
+            </div>
 
-</body>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="Col">
+                        <h5><i class="fa fa-rocket"></i> <span>Technical Skills</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                    </div>
+                </div> <!--1-->
 
-</html>
+                <div class="col-sm-4">
+                    <div class="Col">
+                            <h5><i class="fa fa-diamond"></i> <span>Highly Recommended</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                    </div>
+                </div> <!--2-->
+
+                <div class="col-sm-4">
+                    <div class="Col">
+                            <h5><i class="fa fa-comment-o"></i> <span>Positive Reviews</span></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                    </div>
+                </div> <!--3-->
+            </div>
+
+        </div>
+    </div> <!--ServicesWrap-->
+
+    <div class="GloballyConnectedWrap">
+        <div class="Container">
+
+            <div class="group ClearBoth">
+                <div class="ImgWrap">
+                    <img src="image1.jpeg">
+                </div> <!--left-->
+
+                <div class="RightCol">
+                    <h2>Globally Connected <br>by Large Network</h2>
+                    <h5>we are here to listen from you deliver excellence</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros.
+                         Phasellus imperdiet tincidunt porta. Proin lectus elit, vestibulum congue efficitur eget, volutpat id sapien.</p>
+                    <div class="RedBtn"><a href="#">get details</a></div>
+                </div> <!--right-->
+            </div>
+
+        </div>
+    </div> <!--GloballyConnectedWrap-->
+
+    <div class="NumbersWrap">
+        <div class="Container">
+
+            <div class="group ClearBoth">
+                <div class="col5">2536<span>Projects Completed</span></div>
+                <div class="col5">6784<span>Really Happy Clients</span></div>
+                <div class="col5">1059<span>Total Tasks Completed</span></div>
+                <div class="col5">2239<span>Cup of Coffee Taken</span></div>
+                <div class="col5">435<span>In House Professional</span></div>
+            </div>
+
+        </div>
+    </div> <!--CarModelWrap-->
+
+    <div class="FeaturesWrap">
+        <div class="Container">
+
+            <h1>Some Features that Made us Unique</h1>
+            <p class="MiddleText">who are in extremely love with eco friendly system</p>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="Col">
+                        <h5>Cody Hines</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                        <div class="Stars">
+                            <i class="fa fa-star active"></i>
+                            <i class="fa fa-star active"></i>
+                            <i class="fa fa-star active"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div> <!--1-->
+
+                <div class="col-sm-4">
+                    <div class="Col">
+                        <h5>Chad Herrera</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                            <div class="Stars">
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                    </div>
+                </div> <!--2-->
+
+                <div class="col-sm-4">
+                    <div class="Col">
+                        <h5>Andre Gonzalez</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                            Phasellus imperdiet tincidunt porta.</p>
+                            <div class="Stars">
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                    </div>
+                </div> <!--3-->
+            </div>
+
+            <div class="row">
+                    <div class="col-sm-4">
+                        <div class="Col">
+                            <h5>Jon Banks</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                                Phasellus imperdiet tincidunt porta.</p>
+                            <div class="Stars">
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star active"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div> <!--1-->
+    
+                    <div class="col-sm-4">
+                        <div class="Col">
+                            <h5>Landon Houston</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                                Phasellus imperdiet tincidunt porta.</p>
+                                <div class="Stars">
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                        </div>
+                    </div> <!--2-->
+    
+                    <div class="col-sm-4">
+                        <div class="Col">
+                            <h5>Nelle Wade</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, risus libero cursus felis, vestibulum egestas nibh diam eu eros. 
+                                Phasellus imperdiet tincidunt porta.</p>
+                                <div class="Stars">
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star active"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                        </div>
+                    </div> <!--3-->
+                </div>
+
+        </div>
+    </div> <!--FeaturesWrap-->
+
+    <div class="LatestFromOurBlog">
+        <div class="Container">
+
+            <h1>Latest From Our Blog</h1>
+            <p class="MiddleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, nisl et sodales aliquam, <br>risus libero cursus felis, vestibulum egestas .</p>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="image1.jpeg" alt=" ">
+                    <h6 class="Date">10 Jan 2018</h6>
+                    <h5>Addiction When Gambling Becomes A Problem</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra .</p>
+                    <p>Donec mi velit, feugiat eu metus quis, volutpat suscipit diam. Vestibulum .</p>
+                    <div class="group ClearBoth">
+                        <div class="Left"><a href="#"><i class="fa fa-heart-o"></i>15 Likes</a></div>
+                        <div class="Right"><a href="#"><i class="fa fa-comment-o"></i>02 Comments</a></div>
+                    </div>
+                </div> <!--1-->
+
+                <div class="col-sm-3">
+                        <img src="image2.jpeg" alt=" ">
+                    <h6 class="Date">10 Jan 2018</h6>
+                    <h5>Addiction When Gambling Becomes A Problem</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra .</p>
+                    <p>Donec mi velit, feugiat eu metus quis, volutpat suscipit diam. Vestibulum .</p>
+                    <div class="group ClearBoth">
+                            <div class="Left"><a href="#"><i class="fa fa-heart-o"></i>15 Likes</a></div>
+                            <div class="Right"><a href="#"><i class="fa fa-comment-o"></i>02 Comments</a></div>
+                    </div>
+                </div> <!--1-->
+
+                <div class="col-sm-3">
+                        <img src="image3.jpeg" alt=" ">
+                    <h6 class="Date">10 Jan 2018</h6>
+                    <h5>Addiction When Gambling Becomes A Problem</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra .</p>
+                    <p>Donec mi velit, feugiat eu metus quis, volutpat suscipit diam. Vestibulum .</p>
+                    <div class="group ClearBoth">
+                            <div class="Left"><a href="#"><i class="fa fa-heart-o"></i>15 Likes</a></div>
+                            <div class="Right"><a href="#"><i class="fa fa-comment-o"></i>02 Comments</a></div>
+                    </div>
+                </div> <!--1-->
+
+                <div class="col-sm-3">
+                        <img src="image4.jpeg" alt=" ">
+                    <h6 class="Date">10 Jan 2018</h6>
+                    <h5>Addiction When Gambling Becomes A Problem</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra .</p>
+                    <p>Donec mi velit, feugiat eu metus quis, volutpat suscipit diam. Vestibulum .</p>
+                    <div class="group ClearBoth">
+                            <div class="Left"><a href="#"><i class="fa fa-heart-o"></i>15 Likes</a></div>
+                            <div class="Right"><a href="#"><i class="fa fa-comment-o"></i>02 Comments</a></div>
+                    </div>
+                </div> <!--1-->
+            </div>
+
+        </div>
+    </div> <!--LatestFromOurBlog-->
+
+    
+
+    <?php
+    require_once("includes/footer.php");//only include the file once, if there's duplication of file
+  
+?>
